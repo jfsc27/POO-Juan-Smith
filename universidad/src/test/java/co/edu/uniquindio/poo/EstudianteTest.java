@@ -12,15 +12,11 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import java.util.logging.Logger;
 import org.junit.jupiter.api.Test;
 
-/**
- * Unit test for simple App.
- */
+
 public class EstudianteTest {
     private static final Logger LOG = Logger.getLogger(EstudianteTest.class.getName());
 
-    /**
-     * Prueba para verificar que los datos de un estudiante estén completos
-     */
+
     @Test
     public void datosCompletos() {
         LOG.info("Inicio datosCompletos");
@@ -37,9 +33,6 @@ public class EstudianteTest {
         LOG.info("Finalización datosCompletos");
     }
 
-    /**
-     * Prueba para verificar que los datos de un estudiante no estén nulos
-     */
     @Test
     public void datosNulos() {
         LOG.info("Inicio datosNulos");
@@ -47,9 +40,6 @@ public class EstudianteTest {
         LOG.info("Finalización datosNulos");
     }
 
-    /**
-     * Prueba para verificar que los datos de un estudiante no estén vacios
-     */
     @Test
     public void datosVacios() {
         LOG.info("Inicio datosVacios");
@@ -57,9 +47,6 @@ public class EstudianteTest {
         LOG.info("Finalización datosVacios");
     }
 
-    /**
-     * Prueba para verificar que el correo del estudiante este correcto
-     */
     @Test
     public void edadNegativa() {
         LOG.info("Inicio datosNegativos");
@@ -68,9 +55,6 @@ public class EstudianteTest {
         LOG.info("Finalización datosNegativos");
     }
 
-    /**
-     * Prueba para verificar que el correo del estudiante esté correcto
-     */
     @Test
     public void correoInvalido() {
         LOG.info("Inicio correoInvalido");
