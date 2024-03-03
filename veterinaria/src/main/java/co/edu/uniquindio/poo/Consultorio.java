@@ -11,7 +11,7 @@ public class Consultorio {
 
     public Consultorio (String nombre){
         this.nombre = nombre;
-        assert nombre != null;
+        assert nombre != null :"El nombre no puede ser";
         this.listaMascota = new LinkedList<Mascota>();
         this.listaMascotaMayor = new LinkedList<Mascota>();
     }
